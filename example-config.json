@@ -1,0 +1,7 @@
+{
+	"token":"BOT TOKEN HERE",
+    "clientId": "BOT CLIENT ID HERE",
+	"guildId": "BOT GUILD ID HERE",
+	"owner": "BOT OWNER ID HERE",
+
+}
