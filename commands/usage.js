@@ -33,7 +33,7 @@ module.exports = {
 
     // Retrieve command name and usage count from userdata.json file
     const commandName = interaction.options.getString('command').toLowerCase();
-    const dataFile = 'logs/userdata.json';
+    const dataFile = '../logs/userdata.json';
     let data = {};
     if (fs.existsSync(dataFile)) {
       const rawData = fs.readFileSync(dataFile);
