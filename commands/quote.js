@@ -65,7 +65,7 @@ module.exports = {
     }
 
     // Update usage count in userdata.json file
-    const dataFile = '../logs/userdata.json';
+    const dataFile = './logs/userdata.json';
     let data = {};
     if (fs.existsSync(dataFile)) {
       const rawData = fs.readFileSync(dataFile);

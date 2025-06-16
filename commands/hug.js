@@ -33,7 +33,7 @@ const logchannel = '1107316070232109218';
       console.error('Invalid log channel ID!');
     }
 // Update usage count in userdata.json file
-const dataFile = '../logs/userdata.json';
+const dataFile = './logs/userdata.json';
 let data = {};
 if (fs.existsSync(dataFile)) {
   const rawData = fs.readFileSync(dataFile);
